@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        body > ul {width: 250px;}
+        ul > li {background-color: khaki; }
+        body > div{font-size: 2rem;}
+        li > div {border: 3px solid coral;}
+        li > ul > li {text-decoration: line-through;
+            font-style: italic; list-style: none;}
+
+    </style>
+    <div>하위 / 자식 선택자</div>
+    <ul >
+        <li>
+            <div>Item 1</div>
+            <ul>
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+            </ul>
+        </li>
+        <li>
+            <div>Item 2</div>
+            <ul>
+                <li>Subitem A</li>
+                <li>Subitem B</li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
+</html>
